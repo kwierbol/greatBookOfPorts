@@ -18,10 +18,10 @@ Port 	| Protocol 	|Services 		| Description
 `67`	| TCP 		| `DHCP`		| Dynamic Host Configuration Protocol - server
 `68`	| TCP 		| `DHCP`		| Dynamic Host Configuration Protocol - client
 `69`	| UDP 		| `TFTP`		| Trivial File Transfer Protocol
-`80` 	| TCP 		| `HTTP`  		| Web pages
+`80` 	| TCP 		| `HTTP`  		| HyperText Transfer Protocol
 `143`	| TCP 		| `IMAP`		| Interet Message Access Protocol
 `443`	| TCP 		| `HTTPS`		| HTTP over SSL
-`548`	| TCP 		| afp `Netatalk` | ...
+`548`	| TCP 		| `afp` 		| Netatalk
 `555`	| TCP 		| `dsf`			| Distributed File System
 `2068` 	| TCP		| `avocentkvm` 	| Avocent KVM is a protocol used to control switches
 `2105`	| TCP 		| `eklogin`		| Kerberos encrypted login
