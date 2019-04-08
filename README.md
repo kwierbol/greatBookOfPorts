@@ -14,32 +14,42 @@ Port 	| Protocol 	|Services 		| Description
 `22`	| TCP 		| `SSH`			| Secure Shell
 `23`	| TCP 		| `Telnet`		| Virtual terminal connection
 `25`	| TCP 		| `SMTP`		| Simple Mail Transfer Protocol
+`44` 	| TCP 		| `mpm-flags`	| *desciption wanted*
 `53`	| TCP		| `DNS, domain`	|
 `67`	| TCP 		| `DHCP`		| Dynamic Host Configuration Protocol - server
 `68`	| TCP 		| `DHCP`		| Dynamic Host Configuration Protocol - client
 `69`	| UDP 		| `TFTP`		| Trivial File Transfer Protocol
 `80` 	| TCP 		| `HTTP`  		| HyperText Transfer Protocol
+`99`	| TCP 		| `metagram`	| *Metagram Relay Protocol - description wanted*
 `113`	| TCP 		| `ident`		| Identification Protocol used for IRC
 `143`	| TCP 		| `IMAP`		| Interet Message Access Protocol (IMAP4)
 `443`	| TCP 		| `HTTPS`		| HTTP over SSL
 `548`	| TCP 		| `afp` 		| Netatalk
 `555`	| TCP 		| `dsf`			| Distributed File System
+`631`	| TCP 		| `ipp` 		| Internet Printing Protocol
 `993`	| TCP 		| `IMAPS` 		| Interet Message Access Protocol over SSL (IMAPS)
+`1433`	| TCP 		| `ms-sql-s` 	| Microsoft SQL Server
+`1801`	| TCP 		| `msmq`		| Microsoft Message Queueing
 `2068` 	| TCP		| `avocentkvm` 	| Avocent KVM is a protocol used to control switches
 `2105`	| TCP 		| `eklogin`		| Kerberos encrypted login
 `2222`	| TCP 		| `EtherNetIP-1` | EtherNet/IP
 `2233`	| TCP 		| `infocrypt`	| *description wanted*
 `3128`	| TCP 		| `http-proxy`	| HTTP Proxy
+`3260`	| TCP 		| `iscsi`		| Internet SCSI (Small Computer Interface)
 `3263`	| TCP 		| `ecolor-imager` | *E-Color Enterprise Imager - description wanted*
 `3264` 	| TCP		| `ccmail`		| *description wanted*
+`3389`	| TCP 		| `ms-wbt-server` | Microsoft Terminal Service (Windows Based Terminal)
 `3975` 	| TCP 		| `airshot` 	| *Air Shot - description wanted*
 `4369`	| TCP 		| `epmd`		| Erlang Port Mapper Deamon
+`5123` 	| TCP 		| `ipmi-usb`	| *Intelligent Platform Management Interface; description wanted*
+`5355` 	| TCP 		| `llmnr`		| Link-Local Multicast Name Resolution
 `5672` 	| TCP		| `amqp`		| Advanced Message Queue Protocol
-`5901`	| TCP 		| `ipmi-advertiserd` | Intelligent Platform Management Interface
+`5901`	| TCP 		| `ipmi-advertiserd` | *Intelligent Platform Management Interface; description wanted*
 `6690` 	| TCP		| `cleverdetect` | CLEVERDetect Message - used in IDS
 `7689` 	| TCP		| `collaber` 	| *description wanted*
 `8040` 	| TCP		| `ampify`		| *description wanted*
 `8080`	| TCP 		| `http-proxy`	| HTTP Proxy
-`8889` 	| TCP		| `ddi-tcp-2` 	| Desktop Data TCP 1
+`8889` 	| TCP		| `ddi-tcp-2` 	| *Desktop Data TCP 1 - description wanted*
 `17500`	| TCP 		| `db-lsp`		| Dropbox LAN Sync Protocol
 `17988` | TCP 		| `ilo`			| Integrated Lights-Out
+`33509` | TCP 		| `mountd` 		| NFS mount daemon
