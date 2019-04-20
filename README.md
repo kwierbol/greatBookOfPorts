@@ -11,33 +11,40 @@ Port 	| Protocol 	|Services 		| Description
 -------	| ---------	| ------------	| -----------
 `20`	| TCP 		| `FTP`			| File Transfer Protocol - data
 `21`	| TCP 		| `FTP`			| File Transfer Protocol - commands
-`22`	| TCP 		| `SSH`			| Secure Shell
+`22`	| TCP 		| `SSH`			| Secure Shell - network protocol for operations in client-server architecture that encrypts the connection.
 `23`	| TCP 		| `Telnet`		| Virtual terminal connection
 `25`	| TCP 		| `SMTP`		| Simple Mail Transfer Protocol
 `44` 	| TCP 		| `mpm-flags`	| *desciption wanted*
 `53`	| TCP		| `DNS, domain`	|
 `67`	| TCP 		| `DHCP`		| Dynamic Host Configuration Protocol - server
 `68`	| TCP 		| `DHCP`		| Dynamic Host Configuration Protocol - client
-`69`	| UDP 		| `TFTP`		| Trivial File Transfer Protocol
+`69`	| UDP 		| `TFTP`		| Trivial File Transfer Protocols
 `80` 	| TCP 		| `HTTP`  		| HyperText Transfer Protocol
 `99`	| TCP 		| `metagram`	| *Metagram Relay Protocol - description wanted*
 `113`	| TCP 		| `ident`		| Identification Protocol used for IRC
+`135`	| TCP 		| `msrpc`		| Microsoft RPC
+`139`	| TCP 		| `netbios-ssn` | Microsoft Windows netbios-ssn + Samba - used for sharing local resources (including files and printers) with other hosts in the network
 `143`	| TCP 		| `IMAP`		| Interet Message Access Protocol (IMAP4)
 `443`	| TCP 		| `HTTPS`		| HTTP over SSL
+`445`	| TCP 		| `netbios-ssn`	| See port `139`
 `548`	| TCP 		| `afp` 		| Netatalk
 `555`	| TCP 		| `dsf`			| Distributed File System
 `631`	| TCP 		| `ipp` 		| Internet Printing Protocol
 `993`	| TCP 		| `IMAPS` 		| Interet Message Access Protocol over SSL (IMAPS)
+`1222`	| TCP 		| `nerv`		| NERV - network resource manager for virtualized environments
 `1433`	| TCP 		| `ms-sql-s` 	| Microsoft SQL Server
 `1801`	| TCP 		| `msmq`		| Microsoft Message Queueing
+`2049`	| TCP 		| `nfs_acl`		| Access Control List type NFS
 `2068` 	| TCP		| `avocentkvm` 	| Avocent KVM is a protocol used to control switches
 `2105`	| TCP 		| `eklogin`		| Kerberos encrypted login
+`2107`	| TCP 		| `msmq-mgmt`	| Microsoft Message Queueing Management
 `2222`	| TCP 		| `EtherNetIP-1` | EtherNet/IP
 `2233`	| TCP 		| `infocrypt`	| *description wanted*
 `3128`	| TCP 		| `http-proxy`	| HTTP Proxy
 `3260`	| TCP 		| `iscsi`		| Internet SCSI (Small Computer Interface)
 `3263`	| TCP 		| `ecolor-imager` | *E-Color Enterprise Imager - description wanted*
 `3264` 	| TCP		| `ccmail`		| *description wanted*
+`3306` 	| TCP 		| `mysql`		| MySQL
 `3389`	| TCP 		| `ms-wbt-server` | Microsoft Terminal Service (Windows Based Terminal)
 `3975` 	| TCP 		| `airshot` 	| *Air Shot - description wanted*
 `4369`	| TCP 		| `epmd`		| Erlang Port Mapper Deamon
@@ -52,4 +59,5 @@ Port 	| Protocol 	|Services 		| Description
 `8889` 	| TCP		| `ddi-tcp-2` 	| *Desktop Data TCP 1 - description wanted*
 `17500`	| TCP 		| `db-lsp`		| Dropbox LAN Sync Protocol
 `17988` | TCP 		| `ilo`			| Integrated Lights-Out
+`30000` | TCP 		| `ndmps`		| Secure Network Data Management Protocol - protocol used for transportation of data between NAS and backup devices.
 `33509` | TCP 		| `mountd` 		| NFS mount daemon
